@@ -1,0 +1,536 @@
+{
+  "SHATNAM ARORA_PARK251217CR671898385.pdf": {
+    "bureau_parameters": {
+      "CIBIL Score": {
+        "value": 675,
+        "source": "Bureau Report - RAG Analysis",
+        "confidence": 0.9
+      },
+      "NTC Accepted": {
+        "value": true,
+        "source": "Bureau Report - RAG Analysis",
+        "confidence": 0.9
+      },
+      "Overdue Threshold": {
+        "value": null,
+        "source": "Not Found",
+        "confidence": 0.0
+      },
+      "30+ DPD (Configurable Period)": {
+        "value": 0,
+        "source": "Bureau Report - RAG Analysis",
+        "confidence": 0.9
+      },
+      "60+ DPD (Configurable Period)": {
+        "value": 0,
+        "source": "Bureau Report - RAG Analysis",
+        "confidence": 0.9
+      },
+      "90+ DPD (Configurable Period)": {
+        "value": 0,
+        "source": "Bureau Report - RAG Analysis",
+        "confidence": 0.9
+      },
+      "Settlement / Write-off": {
+        "value": false,
+        "source": "Bureau Report - RAG Analysis",
+        "confidence": 0.9
+      },
+      "No Live PL/BL": {
+        "value": null,
+        "source": "Not Found",
+        "confidence": 0.0
+      },
+      "Suit Filed": {
+        "value": false,
+        "source": "Bureau Report - RAG Analysis",
+        "confidence": 0.9
+      },
+      "Wilful Default": {
+        "value": false,
+        "source": "Bureau Report - RAG Analysis",
+        "confidence": 0.9
+      },
+      "Written-off Debt Amount": {
+        "value": 0,
+        "source": "Bureau Report - RAG Analysis",
+        "confidence": 0.9
+      },
+      "Max Loans": {
+        "value": 4,
+        "source": "Bureau Report - RAG Analysis",
+        "confidence": 0.9
+      },
+      "Loan Amount Threshold": {
+        "value": null,
+        "source": "Not Found",
+        "confidence": 0.0
+      },
+      "Credit Inquiries": {
+        "value": null,
+        "source": "Not Found",
+        "confidence": 0.0
+      },
+      "Max Active Loans": {
+        "value": 4,
+        "source": "Bureau Report - RAG Analysis",
+        "confidence": 0.9
+      }
+    }
+  },
+  "SUJAL GAUTAMBHAI CONTRACTOR_PARK250912CR405418005.pdf": {
+    "bureau_parameters": {
+      "CIBIL Score": {
+        "value": 832,
+        "source": "Bureau Report - RAG Analysis",
+        "confidence": 0.9
+      },
+      "NTC Accepted": {
+        "value": false,
+        "source": "Bureau Report - RAG Analysis",
+        "confidence": 0.9
+      },
+      "Overdue Threshold": {
+        "value": null,
+        "source": "Not Found",
+        "confidence": 0.0
+      },
+      "30+ DPD (Configurable Period)": {
+        "value": 0,
+        "source": "Bureau Report - RAG Analysis",
+        "confidence": 0.9
+      },
+      "60+ DPD (Configurable Period)": {
+        "value": 0,
+        "source": "Bureau Report - RAG Analysis",
+        "confidence": 0.9
+      },
+      "90+ DPD (Configurable Period)": {
+        "value": 0,
+        "source": "Bureau Report - RAG Analysis",
+        "confidence": 0.9
+      },
+      "Settlement / Write-off": {
+        "value": false,
+        "source": "Bureau Report - RAG Analysis",
+        "confidence": 0.9
+      },
+      "No Live PL/BL": {
+        "value": true,
+        "source": "Bureau Report - RAG Analysis",
+        "confidence": 0.9
+      },
+      "Suit Filed": {
+        "value": null,
+        "source": "Not Found",
+        "confidence": 0.0
+      },
+      "Wilful Default": {
+        "value": null,
+        "source": "Not Found",
+        "confidence": 0.0
+      },
+      "Written-off Debt Amount": {
+        "value": null,
+        "source": "Not Found",
+        "confidence": 0.0
+      },
+      "Max Loans": {
+        "value": 3,
+        "source": "Bureau Report - RAG Analysis",
+        "confidence": 0.9
+      },
+      "Loan Amount Threshold": {
+        "value": null,
+        "source": "Not Found",
+        "confidence": 0.0
+      },
+      "Credit Inquiries": {
+        "value": 1,
+        "source": "Bureau Report - RAG Analysis",
+        "confidence": 0.9
+      },
+      "Max Active Loans": {
+        "value": null,
+        "source": "Not Found",
+        "confidence": 0.0
+      }
+    }
+  },
+  "JEET  ARORA_PARK251217CR671901414.pdf": {
+    "bureau_parameters": {
+      "CIBIL Score": {
+        "value": 627,
+        "source": "Bureau Report - RAG Analysis",
+        "confidence": 0.9
+      },
+      "NTC Accepted": {
+        "value": true,
+        "source": "Bureau Report - RAG Analysis",
+        "confidence": 0.9
+      },
+      "Overdue Threshold": {
+        "value": null,
+        "source": "Not Found",
+        "confidence": 0.0
+      },
+      "30+ DPD (Configurable Period)": {
+        "value": 0,
+        "source": "Bureau Report - RAG Analysis",
+        "confidence": 0.9
+      },
+      "60+ DPD (Configurable Period)": {
+        "value": 0,
+        "source": "Bureau Report - RAG Analysis",
+        "confidence": 0.9
+      },
+      "90+ DPD (Configurable Period)": {
+        "value": 0,
+        "source": "Bureau Report - RAG Analysis",
+        "confidence": 0.9
+      },
+      "Settlement / Write-off": {
+        "value": false,
+        "source": "Bureau Report - RAG Analysis",
+        "confidence": 0.9
+      },
+      "No Live PL/BL": {
+        "value": null,
+        "source": "Not Found",
+        "confidence": 0.0
+      },
+      "Suit Filed": {
+        "value": false,
+        "source": "Bureau Report - RAG Analysis",
+        "confidence": 0.9
+      },
+      "Wilful Default": {
+        "value": false,
+        "source": "Bureau Report - RAG Analysis",
+        "confidence": 0.9
+      },
+      "Written-off Debt Amount": {
+        "value": null,
+        "source": "Not Found",
+        "confidence": 0.0
+      },
+      "Max Loans": {
+        "value": 4,
+        "source": "Bureau Report - RAG Analysis",
+        "confidence": 0.9
+      },
+      "Loan Amount Threshold": {
+        "value": null,
+        "source": "Not Found",
+        "confidence": 0.0
+      },
+      "Credit Inquiries": {
+        "value": null,
+        "source": "Not Found",
+        "confidence": 0.0
+      },
+      "Max Active Loans": {
+        "value": null,
+        "source": "Not Found",
+        "confidence": 0.0
+      }
+    }
+  },
+  "Supriy Poddar_PARK251001CR455155930.pdf": {
+    "bureau_parameters": {
+      "CIBIL Score": {
+        "value": 855,
+        "source": "Bureau Report - RAG Analysis",
+        "confidence": 0.9
+      },
+      "NTC Accepted": {
+        "value": true,
+        "source": "Bureau Report - RAG Analysis",
+        "confidence": 0.9
+      },
+      "Overdue Threshold": {
+        "value": null,
+        "source": "Not Found",
+        "confidence": 0.0
+      },
+      "30+ DPD (Configurable Period)": {
+        "value": 0,
+        "source": "Bureau Report - RAG Analysis",
+        "confidence": 0.9
+      },
+      "60+ DPD (Configurable Period)": {
+        "value": 0,
+        "source": "Bureau Report - RAG Analysis",
+        "confidence": 0.9
+      },
+      "90+ DPD (Configurable Period)": {
+        "value": 0,
+        "source": "Bureau Report - RAG Analysis",
+        "confidence": 0.9
+      },
+      "Settlement / Write-off": {
+        "value": false,
+        "source": "Bureau Report - RAG Analysis",
+        "confidence": 0.9
+      },
+      "No Live PL/BL": {
+        "value": true,
+        "source": "Bureau Report - RAG Analysis",
+        "confidence": 0.9
+      },
+      "Suit Filed": {
+        "value": null,
+        "source": "Not Found",
+        "confidence": 0.0
+      },
+      "Wilful Default": {
+        "value": null,
+        "source": "Not Found",
+        "confidence": 0.0
+      },
+      "Written-off Debt Amount": {
+        "value": null,
+        "source": "Not Found",
+        "confidence": 0.0
+      },
+      "Max Loans": {
+        "value": 5,
+        "source": "Bureau Report - RAG Analysis",
+        "confidence": 0.9
+      },
+      "Loan Amount Threshold": {
+        "value": null,
+        "source": "Not Found",
+        "confidence": 0.0
+      },
+      "Credit Inquiries": {
+        "value": null,
+        "source": "Not Found",
+        "confidence": 0.0
+      },
+      "Max Active Loans": {
+        "value": null,
+        "source": "Not Found",
+        "confidence": 0.0
+      }
+    }
+  },
+  "Surana  Kamlesh_PARK251212CR658531038.pdf": {
+    "bureau_parameters": {
+      "CIBIL Score": {
+        "value": 767,
+        "source": "Bureau Report - RAG Analysis",
+        "confidence": 0.9
+      },
+      "NTC Accepted": {
+        "value": true,
+        "source": "Bureau Report - RAG Analysis",
+        "confidence": 0.9
+      },
+      "Overdue Threshold": {
+        "value": null,
+        "source": "Not Found",
+        "confidence": 0.0
+      },
+      "30+ DPD (Configurable Period)": {
+        "value": 0,
+        "source": "Bureau Report - RAG Analysis",
+        "confidence": 0.9
+      },
+      "60+ DPD (Configurable Period)": {
+        "value": 0,
+        "source": "Bureau Report - RAG Analysis",
+        "confidence": 0.9
+      },
+      "90+ DPD (Configurable Period)": {
+        "value": 0,
+        "source": "Bureau Report - RAG Analysis",
+        "confidence": 0.9
+      },
+      "Settlement / Write-off": {
+        "value": false,
+        "source": "Bureau Report - RAG Analysis",
+        "confidence": 0.9
+      },
+      "No Live PL/BL": {
+        "value": null,
+        "source": "Not Found",
+        "confidence": 0.0
+      },
+      "Suit Filed": {
+        "value": false,
+        "source": "Bureau Report - RAG Analysis",
+        "confidence": 0.9
+      },
+      "Wilful Default": {
+        "value": false,
+        "source": "Bureau Report - RAG Analysis",
+        "confidence": 0.9
+      },
+      "Written-off Debt Amount": {
+        "value": null,
+        "source": "Not Found",
+        "confidence": 0.0
+      },
+      "Max Loans": {
+        "value": null,
+        "source": "Not Found",
+        "confidence": 0.0
+      },
+      "Loan Amount Threshold": {
+        "value": null,
+        "source": "Not Found",
+        "confidence": 0.0
+      },
+      "Credit Inquiries": {
+        "value": null,
+        "source": "Not Found",
+        "confidence": 0.0
+      },
+      "Max Active Loans": {
+        "value": null,
+        "source": "Not Found",
+        "confidence": 0.0
+      }
+    }
+  },
+  "VISHAL SANCHETI_PARK251212CR658608325.pdf": {
+    "bureau_parameters": {
+      "CIBIL Score": {
+        "value": 677,
+        "source": "Bureau Report - RAG Analysis",
+        "confidence": 0.9
+      },
+      "NTC Accepted": {
+        "value": true,
+        "source": "Bureau Report - RAG Analysis",
+        "confidence": 0.9
+      },
+      "Overdue Threshold": {
+        "value": null,
+        "source": "Not Found",
+        "confidence": 0.0
+      },
+      "30+ DPD (Configurable Period)": {
+        "value": 0,
+        "source": "Bureau Report - RAG Analysis",
+        "confidence": 0.9
+      },
+      "60+ DPD (Configurable Period)": {
+        "value": 0,
+        "source": "Bureau Report - RAG Analysis",
+        "confidence": 0.9
+      },
+      "90+ DPD (Configurable Period)": {
+        "value": 0,
+        "source": "Bureau Report - RAG Analysis",
+        "confidence": 0.9
+      },
+      "Settlement / Write-off": {
+        "value": false,
+        "source": "Bureau Report - RAG Analysis",
+        "confidence": 0.9
+      },
+      "No Live PL/BL": {
+        "value": null,
+        "source": "Not Found",
+        "confidence": 0.0
+      },
+      "Suit Filed": {
+        "value": false,
+        "source": "Bureau Report - RAG Analysis",
+        "confidence": 0.9
+      },
+      "Wilful Default": {
+        "value": false,
+        "source": "Bureau Report - RAG Analysis",
+        "confidence": 0.9
+      },
+      "Written-off Debt Amount": {
+        "value": null,
+        "source": "Not Found",
+        "confidence": 0.0
+      },
+      "Max Loans": {
+        "value": null,
+        "source": "Not Found",
+        "confidence": 0.0
+      },
+      "Loan Amount Threshold": {
+        "value": null,
+        "source": "Not Found",
+        "confidence": 0.0
+      },
+      "Credit Inquiries": {
+        "value": 2,
+        "source": "Bureau Report - RAG Analysis",
+        "confidence": 0.9
+      },
+      "Max Active Loans": {
+        "value": null,
+        "source": "Not Found",
+        "confidence": 0.0
+      }
+    }
+  },
+  "GSTR3B_06AAICK4577H1Z8_032025.pdf": {
+    "gst_sales": [
+      {
+        "month": "March 2024-25",
+        "sales": 1319800.0,
+        "source": "GSTR-3B Table 3.1(a) (Page 1)",
+        "confidence": 0.95
+      }
+    ]
+  },
+  "GSTR3B_06AAICK4577H1Z8_122024.pdf": {
+    "gst_sales": [
+      {
+        "month": "December 2024-25",
+        "sales": 917677.0,
+        "source": "GSTR-3B Table 3.1(a) (Page 1)",
+        "confidence": 0.95
+      }
+    ]
+  },
+  "GSTR3B_06AAICK4577H1Z8_022025.pdf": {
+    "gst_sales": [
+      {
+        "month": "February 2024-25",
+        "sales": 500000.0,
+        "source": "GSTR-3B Table 3.1(a) (Page 1)",
+        "confidence": 0.95
+      }
+    ]
+  },
+  "GSTR3B_06AAICK4577H1Z8_112024.pdf": {
+    "gst_sales": [
+      {
+        "month": "November 2024-25",
+        "sales": 649677.0,
+        "source": "GSTR-3B Table 3.1(a) (Page 1)",
+        "confidence": 0.95
+      }
+    ]
+  },
+  "GSTR3B_06AAICK4577H1Z8_012025.pdf": {
+    "gst_sales": [
+      {
+        "month": "January 2024-25",
+        "sales": 951381.0,
+        "source": "GSTR-3B Table 3.1(a) (Page 1)",
+        "confidence": 0.95
+      }
+    ]
+  },
+  "GSTR3B_06AAICK4577H1Z8_042025.pdf": {
+    "gst_sales": [
+      {
+        "month": "06/2025",
+        "sales": 121710.78,
+        "source": "GSTR-3B Table 3.1(a) (Page 1)",
+        "confidence": 0.95
+      }
+    ]
+  }
+}

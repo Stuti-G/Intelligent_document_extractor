@@ -1,0 +1,12 @@
+pandas
+openpyxl
+pypdf
+langchain
+langchain-community
+sentence-transformers
+chromadb
+python-dotenv
+fastapi
+uvicorn[standard]
+python-multipart
+requests
