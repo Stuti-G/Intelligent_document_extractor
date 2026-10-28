@@ -12,7 +12,6 @@ PDF Document → PDF Loader → RAG Engine (ChromaDB + Embeddings) → LLM ( Oll
 
 - Python 3.13+
 - Ollama 
-- Mistral model downloaded through Ollama
 - Git
 ## Quick Start
 
