@@ -10,7 +10,7 @@ PDF Document → PDF Loader → RAG Engine (ChromaDB + Embeddings) → LLM ( Oll
 
 ## Prerequisites
 
-- Python 3.13+
+- Python 
 - Ollama 
 - Git
 ## Quick Start
@@ -20,11 +20,13 @@ PDF Document → PDF Loader → RAG Engine (ChromaDB + Embeddings) → LLM ( Oll
 ```bash
 curl -fsSL https://ollama.com/install.sh | sh
 ollama serve &
+ollama pull llama3.2
 ```
 ### 2. Install Dependencies
 
 ```bash
-source .venv/bin/activate  # Activate virtual environment
+python -m venv myenv
+myenv\Scripts\activate
 pip install -r requirements.txt
 ```
 
@@ -80,7 +82,7 @@ Results are saved to `extraction_results.json`.
 
 1. **Document Chunking**: PDFs split into page-level chunks
 2. **Embedding**: Each chunk embedded using `all-MiniLM-L6-v2`
-3. **Similarity Search**: Retrieve top-k relevant chunks using cosine similarity
+3. **Similarity Search**: Retrieve top-k relevant chunks using vector similarity search
 4. **LLM Extraction**:  Ollama processes the retrieved context to extract the required structured information.
 5. **Fallback Extraction**: Regex-based extraction is used for selected critical fields when applicable.
 
