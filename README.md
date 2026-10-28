@@ -12,7 +12,8 @@ PDF Document → PDF Loader → RAG Engine (ChromaDB + Embeddings) → LLM (Mist
 
 - Python 3.13+
 - Ollama with Mistral model
-- 
+- Mistral model downloaded through Ollama
+- Git
 ## Quick Start
 
 ### 1. Install Ollama
@@ -46,13 +47,13 @@ Interactive docs: `http://localhost:8000/docs`
 **Extract Bureau Report:**
 ```bash
 curl -X POST http://localhost:8000/api/extract/bureau \
-  -F "file=@data/Bureau_Reports/JEET  ARORA_PARK251217CR671901414.pdf"
+  -F "file=@data/Bureau_Reports/sample.pdf"
 ```
 
 **Extract GST Return:**
 ```bash
 curl -X POST http://localhost:8000/api/extract/gst \
-  -F "file=@data/GST_3B_Returns/GSTR3B_06AAICK4577H1Z8_042025.pdf"
+  -F "file=@data/GST_3B_Returns/sample.pdf"
 ```
 
 **Auto-detect Document Type:**
@@ -65,7 +66,7 @@ curl -X POST http://localhost:8000/api/extract/auto \
 
 **Process Single File:**
 ```bash
-python src/main.py --file "data/Bureau_Reports/JEET  ARORA_PARK251217CR671901414.pdf" --type bureau
+python src/main.py --file "data/Bureau_Reports/sample.pdf" --type bureau
 ```
 
 **Process All Files:**
@@ -82,8 +83,8 @@ Results are saved to `extraction_results.json`.
 1. **Document Chunking**: PDFs split into page-level chunks
 2. **Embedding**: Each chunk embedded using `all-MiniLM-L6-v2`
 3. **Similarity Search**: Retrieve top-k relevant chunks using cosine similarity
-4. **LLM Extraction**: Mistral extracts values from retrieved context
-5. **Fallback Extraction**: Regex-based fallback for critical fields (e.g., credit score)
+4. **LLM Extraction**:  Mistral processes the retrieved context to extract the required structured information.
+5. **Fallback Extraction**: Regex-based extraction is used for selected critical fields when applicable.
 
 ## Testing
 
@@ -99,7 +100,7 @@ python tests/test_api.py
 ## Tech Stack
 
 - **Backend**: FastAPI, Uvicorn
-- **LLM**: Ollama (Mistral 7B)
+- **LLM**: Ollama 
 - **Embeddings**: sentence-transformers (MiniLM-L6-v2)
 - **Vector DB**: ChromaDB
 - **PDF Parsing**: PyPDF
@@ -108,4 +109,4 @@ python tests/test_api.py
 
 ## License
 
-MIT
+This project is licensed under the MIT License.

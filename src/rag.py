@@ -4,11 +4,13 @@ from langchain_community.vectorstores import Chroma
 from langchain_core.documents import Document as LangchainDocument
 from src.loaders import DocumentChunk
 from src.config import EMBEDDING_MODEL_NAME
+from uuid import uuid4
 
 class RAGEngine:
     def __init__(self):
         self.embeddings = HuggingFaceEmbeddings(model_name=EMBEDDING_MODEL_NAME)
         self.vector_store = None
+        self.collection_name = f"temp_doc_{uuid4().hex}"
 
     def index_document(self, chunks: List[DocumentChunk]):
         documents = [
@@ -21,7 +23,7 @@ class RAGEngine:
         self.vector_store = Chroma.from_documents(
             documents=documents,
             embedding=self.embeddings,
-            collection_name="temp_doc_collection"
+            collection_name=self.collection_name
         )
 
     def retrieve(self, query: str, k: int = 3) -> List[LangchainDocument]:
