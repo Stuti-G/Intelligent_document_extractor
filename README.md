@@ -5,13 +5,13 @@ AI-powered document extraction system for CRIF Bureau Reports and GSTR-3B Return
 ## Architecture
 
 ```
-PDF Document → PDF Loader → RAG Engine (ChromaDB + Embeddings) → LLM (Mistral via Ollama) → JSON Output
+PDF Document → PDF Loader → RAG Engine (ChromaDB + Embeddings) → LLM ( Ollama) → JSON Output
 ```
 
 ## Prerequisites
 
 - Python 3.13+
-- Ollama with Mistral model
+- Ollama 
 - Mistral model downloaded through Ollama
 - Git
 ## Quick Start
@@ -21,7 +21,6 @@ PDF Document → PDF Loader → RAG Engine (ChromaDB + Embeddings) → LLM (Mist
 ```bash
 curl -fsSL https://ollama.com/install.sh | sh
 ollama serve &
-ollama pull mistral
 ```
 ### 2. Install Dependencies
 
@@ -83,7 +82,7 @@ Results are saved to `extraction_results.json`.
 1. **Document Chunking**: PDFs split into page-level chunks
 2. **Embedding**: Each chunk embedded using `all-MiniLM-L6-v2`
 3. **Similarity Search**: Retrieve top-k relevant chunks using cosine similarity
-4. **LLM Extraction**:  Mistral processes the retrieved context to extract the required structured information.
+4. **LLM Extraction**:  Ollama processes the retrieved context to extract the required structured information.
 5. **Fallback Extraction**: Regex-based extraction is used for selected critical fields when applicable.
 
 ## Testing
